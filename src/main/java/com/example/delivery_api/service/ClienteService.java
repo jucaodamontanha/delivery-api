@@ -6,4 +6,8 @@ public interface ClienteService {
 
     Cliente criarCliente(Cliente cliente);
     Cliente buscarClientePorEmail(String email);
+    Cliente buscarClientePorId(Long id);
+    Cliente atualizarCliente(Long id, Cliente clienteAtualizado);
+    void deletarCliente(Long id);
+    Cliente listarClientes(String nome);
 }

@@ -9,4 +9,7 @@ public interface RestauranteService {
     Restaurante criarRestaurante(Restaurante restaurante);
     List<Restaurante> buscarRestaurantesPorCategoria(String categoria);
     Restaurante buscarRestaurantePorId(Long id);
+    List<Restaurante> buscarTodosRestaurantes();
+    Restaurante atualizarRestaurante(Long id, Restaurante restauranteAtualizado);
+    void deletarRestaurante(Long id);
 }

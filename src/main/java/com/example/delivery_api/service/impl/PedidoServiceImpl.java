@@ -4,6 +4,8 @@ import com.example.delivery_api.model.Pedido;
 import com.example.delivery_api.service.PedidoService;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class PedidoServiceImpl implements PedidoService {
     @Override
@@ -19,5 +21,10 @@ public class PedidoServiceImpl implements PedidoService {
     @Override
     public Pedido atualizarStatusPedido(Long pedidoId, String status) {
         return null;
+    }
+
+    @Override
+    public List<Pedido> listarPedidosPorClienteId(Long clienteId) {
+        return List.of();
     }
 }

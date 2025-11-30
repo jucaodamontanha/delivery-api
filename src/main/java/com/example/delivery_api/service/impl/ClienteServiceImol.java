@@ -15,4 +15,24 @@ public class ClienteServiceImol implements ClienteService {
     public Cliente buscarClientePorEmail(String email) {
         return null;
     }
+
+    @Override
+    public Cliente buscarClientePorId(Long id) {
+        return null;
+    }
+
+    @Override
+    public Cliente atualizarCliente(Long id, Cliente clienteAtualizado) {
+        return null;
+    }
+
+    @Override
+    public void deletarCliente(Long id) {
+
+    }
+
+    @Override
+    public Cliente listarClientes(String nome) {
+        return null;
+    }
 }
